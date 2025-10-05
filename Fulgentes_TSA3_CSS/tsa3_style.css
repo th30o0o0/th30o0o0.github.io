@@ -48,6 +48,15 @@ header h1 {
   margin-bottom: 40px;
 }
 
+/* Center and style section headings */
+.section h2 {
+  text-align: center;       
+  color: #0b1e3b;        
+  font-size: 2em;           
+  margin-bottom: 25px;      
+  letter-spacing: 1px;     
+}
+
 /* About Me Section */
 .about-container {
   display: flex;
