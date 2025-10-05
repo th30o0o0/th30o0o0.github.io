@@ -89,6 +89,17 @@ header h1 {
   justify-content: center;
 }
 
+/* Dream Job Image */
+.dream-img {
+  width: 250px;            
+  height: auto;            
+  border-radius: 10px;
+  border: 2px solid #a0d8ef;
+  object-fit: cover;       
+  display: block;
+  margin: 10px auto;      
+}
+
 .dream-gallery img {
   width: 220px;           
   height: 140px;          
