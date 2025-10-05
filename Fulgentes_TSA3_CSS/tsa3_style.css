@@ -80,12 +80,13 @@ header h1 {
   justify-content: center;
 }
 
-.dream-img {
-  width: 300px;
-  height: auto; 
+.dream-gallery img {
+  width: 220px;           
+  height: 140px;          
   border-radius: 10px;
-  border: 2px solid #a0d8ef;
-  object-fit: contain; 
+  border: 2px solid #b3d9ff;
+  object-fit: cover;      
+  display: block;         
 }
 
 .dream-text {
