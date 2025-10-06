@@ -57,6 +57,11 @@ header h1 {
   letter-spacing: 1px;     
 }
 
+/* Section Heading: My Dream Place To be */
+.dream-place-heading {
+  color: white;
+}
+
 /* About Me Section */
 .about-container {
   display: flex;
