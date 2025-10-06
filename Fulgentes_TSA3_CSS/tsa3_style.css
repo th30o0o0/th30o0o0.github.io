@@ -80,14 +80,14 @@ header h1 {
 }
 
 .about-text {
-  flex: 1;
-  font-size: 1.1em;
   color: #1e3d59;
+  font-size: 1.1em;
   min-width: 250px;
+  max-width: 500px;
+  text-align: justify;
 }
 
 .dream-job {
-  display: flex;
   align-items: center;
   gap: 25px;
   flex-wrap: wrap; 
@@ -115,9 +115,9 @@ header h1 {
 }
 
 .dream-text {
-  color: #355c7d;
-  font-style: italic;
+  color: #1e3d59;
   font-size: 1.1em;
+  min-width: 250px;
   max-width: 500px;
   text-align: justify;
 }
