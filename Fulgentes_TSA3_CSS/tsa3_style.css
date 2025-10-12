@@ -43,15 +43,68 @@ header h1 {
   letter-spacing: 1px;
 }
 
+/* Section Heading: My Dream Place To be */
 .dream-place-heading {
-  color: white; 
+  color: white;
 }
 
-/* TEXT & COLOR STYLES */
-.about-text,
-.dream-text {
-  color: #1e3d59;
+/* About Me Section */
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap; 
+  margin-bottom: 40px;
+}
+
+.profile-pic {
+  width: 280px;
+  height: auto; 
+  border-radius: 10px;
+  border: 3px solid #89cff0;
+  object-fit: cover;
+}
+
+.about-text {
+  flex: 1;
   font-size: 1.1em;
+  color: #1e3d59;
+  min-width: 250px;
+}
+
+.dream-job {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  flex-wrap: wrap; 
+  justify-content: center;
+}
+
+/* Dream Job Image */
+.dream-img {
+  width: 250px;            
+  height: auto;            
+  border-radius: 10px;
+  border: 2px solid #a0d8ef;
+  object-fit: cover;       
+  display: block;
+  margin: 10px auto;      
+}
+
+.dream-gallery img {
+  width: 220px;           
+  height: 140px;          
+  border-radius: 10px;
+  border: 2px solid #b3d9ff;
+  object-fit: cover;      
+  display: block;         
+}
+
+.dream-text {
+  color: #355c7d;
+  font-style: italic;
+  font-size: 1.1em;
+  max-width: 500px;
   text-align: justify;
 }
 
