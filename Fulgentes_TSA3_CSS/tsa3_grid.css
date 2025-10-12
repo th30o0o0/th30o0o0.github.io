@@ -1,4 +1,4 @@
-/* ========= HEADER LAYOUT ========= */
+/* HEADER LAYOUT */
 .nav-links {
   list-style: none;
   display: flex;
@@ -6,40 +6,33 @@
   gap: 20px;
 }
 
-/* ========= SECTION ========= */
+/* SECTION */
 .section {
   padding: 50px 10%;
   margin-bottom: 40px;
 }
 
-/* ========= ABOUT ME ========= */
-.about-container {
+/* ABOUT ME & DREAM JOB */
+.about-container,
+.dream-job {
   display: flex;
   align-items: center;
-  gap: 30px;
-  flex-wrap: wrap;
   justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
 }
 
 .profile-pic {
-  width: 250px;
+  width: 200px;       
   height: auto;
   border-radius: 10px;
   border: 3px solid #89cff0;
   object-fit: cover;
 }
 
-.dream-job {
-  display: flex;
-  align-items: center;
-  gap: 25px;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
 .dream-img {
-  width: 250px;
-  height: auto;
+  width: 300px;      
+  height: 220px;      
   border-radius: 10px;
   border: 2px solid #a0d8ef;
   object-fit: cover;
@@ -47,7 +40,12 @@
   margin: 10px auto;
 }
 
-/* ========= HOBBIES ========= */
+.about-text,
+.dream-text {
+  max-width: 500px;
+}
+
+/* HOBBIES */
 .hobby-grid {
   display: flex;
   gap: 40px;
@@ -64,7 +62,7 @@
   object-fit: contain;
 }
 
-/* ========= DREAM PLACE ========= */
+/* DREAM PLACE */
 .dream-place {
   position: relative;
   background-color: #667eea;
@@ -75,7 +73,7 @@
 }
 
 .dream-overlay {
-  background: #f4faff(0, 0, 50, 0.5);
+  background: rgba(0, 0, 50, 0.5);
   padding: 40px;
   border-radius: 10px;
 }
@@ -97,7 +95,7 @@
   display: block;
 }
 
-/* ========= FAVES ========= */
+/* FAVES */
 .faves-grid {
   display: flex;
   flex-wrap: wrap;
