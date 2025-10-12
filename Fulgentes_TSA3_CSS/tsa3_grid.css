@@ -1,4 +1,4 @@
-/* HEADER */
+/* ========= HEADER LAYOUT ========= */
 .nav-links {
   list-style: none;
   display: flex;
@@ -6,13 +6,13 @@
   gap: 20px;
 }
 
-/* SECTION */
+/* ========= SECTION ========= */
 .section {
   padding: 50px 10%;
   margin-bottom: 40px;
 }
 
-/* ABOUT ME */
+/* ========= ABOUT ME ========= */
 .about-container {
   display: flex;
   align-items: center;
@@ -22,7 +22,7 @@
 }
 
 .profile-pic {
-  width: 200px;  
+  width: 250px;
   height: auto;
   border-radius: 10px;
   border: 3px solid #89cff0;
@@ -38,8 +38,8 @@
 }
 
 .dream-img {
-  width: 280px;
-  height: 230;
+  width: 250px;
+  height: auto;
   border-radius: 10px;
   border: 2px solid #a0d8ef;
   object-fit: cover;
@@ -47,7 +47,7 @@
   margin: 10px auto;
 }
 
-/* HOBBIES */
+/* ========= HOBBIES ========= */
 .hobby-grid {
   display: flex;
   gap: 40px;
@@ -64,7 +64,7 @@
   object-fit: contain;
 }
 
-/* DREAM PLACE */
+/* ========= DREAM PLACE ========= */
 .dream-place {
   position: relative;
   background-color: #667eea;
@@ -75,7 +75,7 @@
 }
 
 .dream-overlay {
-  background: rgba(0, 0, 50, 0.5);
+  background: #f4faff(0, 0, 50, 0.5);
   padding: 40px;
   border-radius: 10px;
 }
@@ -97,7 +97,7 @@
   display: block;
 }
 
-/* FAVES */
+/* ========= FAVES ========= */
 .faves-grid {
   display: flex;
   flex-wrap: wrap;
