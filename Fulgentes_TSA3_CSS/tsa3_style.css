@@ -43,14 +43,24 @@ header h1 {
   letter-spacing: 1px;
 }
 
-/* Styling for Dream Place heading */
+/* DREAM PLACE SECTION */
+.dream-place {
+  position: relative;
+  background-color: #b3d9ff; 
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 100px 10%;
+}
+
+.dream-overlay {
+  background: rgba(0, 0, 50, 0.2); 
+  padding: 40px;
+  border-radius: 10px;
+}
+
 .dream-place-heading {
-  background-color: #b3d9ff;  
-  color: #0b1e3b;             
-  padding: 15px 0;
-  border-radius: 8px;
-  display: inline-block;
-  width: 100%;
+  color: #0b1e3b; 
 }
 
 /* TEXT & COLOR STYLES */

@@ -18,12 +18,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 25px;
+  gap: 20px; 
   flex-wrap: wrap;
 }
 
 .profile-pic {
-  width: 200px;       
+  width: 200px;
   height: auto;
   border-radius: 10px;
   border: 3px solid #89cff0;
@@ -31,19 +31,20 @@
 }
 
 .dream-img {
-  width: 300px;      
-  height: 220px;      
+  width: 300px;
+  height: 220px;
   border-radius: 10px;
   border: 2px solid #a0d8ef;
   object-fit: cover;
   display: block;
-  margin: 10px auto;
+  margin: 0 auto; 
 }
 
 .about-text,
 .dream-text {
   max-width: 500px;
 }
+
 
 /* HOBBIES */
 .hobby-grid {
