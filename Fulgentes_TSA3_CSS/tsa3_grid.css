@@ -22,7 +22,7 @@
 }
 
 .profile-pic {
-  width: 250px;
+  width: 200px;  
   height: auto;
   border-radius: 10px;
   border: 3px solid #89cff0;
@@ -38,8 +38,8 @@
 }
 
 .dream-img {
-  width: 250px;
-  height: auto;
+  width: 280px;
+  height: 230;
   border-radius: 10px;
   border: 2px solid #a0d8ef;
   object-fit: cover;
