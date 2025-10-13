@@ -44,7 +44,7 @@
   border: 2px solid #a0d8ef;
   object-fit: cover;
   display: block;
-  margin: 0 auto;
+  margin: 10px;
 }
 
 .about-text,
