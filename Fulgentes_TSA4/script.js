@@ -29,7 +29,7 @@ function showError(id, show) {
   error.style.display = show ? "block" : "none";
 }
 
-// Save Button Event
+// Save Button 
 document.getElementById("saveBtn").addEventListener("click", function() {
   const idNumber = document.getElementById("idNumber").value.trim();
   const firstName = document.getElementById("firstName").value.trim();
@@ -50,7 +50,8 @@ document.getElementById("saveBtn").addEventListener("click", function() {
     valid = false;
   }
 
-  if (!valid) return; // Stop if validation fails
+  // Stop if validation fails
+  if (!valid) return; 
 
   // Create user object
   const newUser = { idNumber, firstName, middleName, lastName, gender, birthday };
@@ -61,7 +62,7 @@ document.getElementById("saveBtn").addEventListener("click", function() {
   document.querySelectorAll(".error").forEach(e => e.style.display = "none");
 });
 
-// Show Summary Button Event
+// Show Summary Button
 document.getElementById("showSummary").addEventListener("click", () => {
   const totalUsers = users.length;
   if (totalUsers === 0) {
@@ -71,7 +72,7 @@ document.getElementById("showSummary").addEventListener("click", () => {
   }
 });
 
-// Clear Table Button Event
+// Clear Table Button
 document.getElementById("clearTable").addEventListener("click", () => {
   if (users.length === 0) {
     alert("There are no records to clear.");
