@@ -1,0 +1,132 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #eae9e0;
+    padding: 1rem 3rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #111;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #777;
+}
+
+.logo-placeholder {
+    background-color: #ccc7b4;
+    padding: 0.6rem 1rem;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+/* Logo Styles */
+.logo-container {
+    cursor: pointer;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.logo-container:hover {
+    transform: scale(1.05);
+    filter: brightness(1.2);
+}
+
+.logo-img {
+    height: 40px;
+    width: auto;
+    border-radius: 4px;
+}
+
+/* Sections */
+section {
+    padding: 2rem 3rem;
+}
+
+h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+/* Scrollable containers */
+.scroll-container {
+    display: flex;
+    gap: 1.5rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding-bottom: 1rem;
+}
+
+.scroll-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+    background: #d1d1c7;
+    border-radius: 5px;
+}
+
+/* Cards */
+.card {
+    flex: 0 0 auto;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card h3 {
+    font-size: 1.3rem;
+    margin: 0.7rem 1rem 0.3rem;
+}
+
+.card p {
+    font-size: 0.95rem;
+    color: #333;
+    margin: 0 1rem 1rem;
+    text-align: justify;
+}
+
+/* Curator Cards */
+.curator-card {
+    transition: all 0.3s ease;
+}
+
+.curator-card.active {
+    transform: scale(1.05);
+    background-color: #f7f7f3;
+}
