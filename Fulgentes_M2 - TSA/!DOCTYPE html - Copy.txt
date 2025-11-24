@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Pablo's List | Activity 2.1</title>
+    </head>
+    <body>
+        <h1>Activity 2.1 || To-Do List Webpage</h1>
+        <h2>Pablo G. Fulgentes || 8 - Meticulousl</h2>
+        <p>Hello! I am Pablo G. Fulgentes, and this is my To-do list webpage.</p>
+        <hr>
+        <h2>Daily routine and To-Do List || 10/30/2025</h2>
+        <ul>
+            <li>Wake up at 4 or 5 am</li>
+            <li>Go to basketball court and stay for 1-2hrs</li>
+            <li>Stretch a little after getting home</li>
+            <li>Eat breakfast at 6:30 am</li>
+            <li>Bath</li>
+            <li>Go to school at 7:30</li>
+            <li>School until 4pm</li>
+            <li>Basketball in school 4-4:45pm</li>
+            <li>Get home at 5:30</li>
+            <li>Rest for 30 minutes</li>
+            <li>Eat dinner</li>
+            <li>Go to court for 1 hour at 7pm</li>
+            <li>Go home at 8pm</li>
+            <li>Bath</li>
+            <li>Use phone or play video game</li>
+            <li>Sleep at 10:30pm</li>
+        </ul>
+        <hr>
+        <h2>How to make Grilled Cheese</h2>
+        <ol>
+            <li>Prepare any type of cheese you want and prepare slice bread.</li>
+            <li>Put it in an air fryer for 10 minutes at 180 degrees C.</li>
+            <li>Prepare tomato salsa (optional).</li>
+            <li>Once the air fryer is done get the bread using a spoon or tongs.</li>
+           
+       
+        <hr>
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Sports: Basketball, Volleyball.</li>
+            <li>Sleep: Naps when has free time and sleeps early.</li>
+            <li>Cooking: Cooking late night or early morning snacks or meals for me</li>
+            <li>Video games: NBA 2k25, Fortnite.</li>
+            <li>Shoes: I like collecting and using basketball shoes.</li>
+            <li>Driving: Driving with my dad or brother.</li>
+        </ul>
+ 
+    </body>
+ 
+</html>
