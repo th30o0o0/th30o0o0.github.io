@@ -35,13 +35,13 @@ nav {
 }
 
 .nav-links {
-    list-style: var(--font-body) none;
+    list-style: none;
     display: flex;
     gap: 3rem;
 }
 
 .nav-links a {
-    list-style: var(--font-body) none;
+    text-decoration: none;
     color: #111;
     font-size: 1.1rem;
     transition: color 0.3s;
