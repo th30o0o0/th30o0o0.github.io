@@ -87,6 +87,12 @@ nav {
     font-weight: bold;
 }
 
+.highlight {
+    background-color: yellow;
+    padding: 2px;
+    border-radius: 3px;
+}
+
 /* Logo Styles */
 .logo-container {
     cursor: pointer;
