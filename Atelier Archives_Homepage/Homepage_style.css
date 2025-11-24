@@ -35,13 +35,13 @@ nav {
 }
 
 .nav-links {
-    list-style: none;
+    list-style: var(--font-body) none;
     display: flex;
     gap: 3rem;
 }
 
 .nav-links a {
-    text-decoration: none;
+    list-style: var(--font-body) none;
     color: #111;
     font-size: 1.1rem;
     transition: color 0.3s;
@@ -88,7 +88,7 @@ nav {
 }
 
 .highlight {
-    background-color: yellow;
+    background-color: rgb(237, 175, 114);
     padding: 2px;
     border-radius: 3px;
 }
@@ -166,6 +166,7 @@ h2 {
 }
 
 .card p {
+    font-family: var(--font-body);
     font-size: 0.95rem;
     color: #333;
     margin: 0 1rem 1rem;
