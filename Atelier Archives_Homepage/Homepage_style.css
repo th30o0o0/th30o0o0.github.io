@@ -1,9 +1,25 @@
-/* General Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Helvetica Neue', sans-serif;
+/* =========================
+   ATELIER ARCHIVES — LUXE MINIMALIST THEME
+   ========================= */
+
+:root {
+  /* Fonts */
+  --font-heading: 'Poppins', sans-serif;
+  --font-body: 'Lato', sans-serif;
+
+
+  /* Colors */
+  --color-light: #f2f0ec;  /* lighter, airy background */
+  --color-medium: #b0a99f; /* warm accent */
+  --color-bg: #fffdfb;     /* soft off-white */
+  --text-dark: #1a1a1a;    /* deep charcoal for luxury feel */
+  --text-muted: #555;      /* subtle secondary text */
+
+
+  /* Layout */
+  --max-width: 1000px;
+  --pad: 24px;
+  --border-radius: 10px;
 }
 
 /* Navigation Bar */
