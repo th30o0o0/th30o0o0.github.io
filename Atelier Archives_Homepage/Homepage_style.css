@@ -51,6 +51,34 @@ nav {
     color: #777;
 }
 
+/* Search Bar */
+.nav-search {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    padding: 6px 12px;
+    border: 1px solid #ccc7b4;
+    border-radius: 20px;
+    background-color: #f4f3ef;
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    width: 160px;
+    transition: all 0.3s ease;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #b0a99f;
+    background-color: #fff;
+    width: 200px;  /* expands on focus */
+}
+
+.search-input:hover {
+    background-color: #f0eee9;
+}
+
 .logo-placeholder {
     background-color: #ccc7b4;
     padding: 0.6rem 1rem;
