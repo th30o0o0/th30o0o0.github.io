@@ -17,9 +17,11 @@
                 <li><a href="Editorial.html">Editorial</a></li>
                 <li><a href="AboutUs.html">About Us</a></li>
 
+                
+
             <!-- Search Bar -->
                 <li class="nav-search">
-                    <input type="text" placeholder="Search..." class="search-input">
+                    <input type="text" placeholder="Search..." class="search-input" onkeydown="if(event.key === 'Enter') searchPage()">
                 </li>
 
                 <li><a href="Signup.html">Sign Up/Log In</a></li>
@@ -150,7 +152,26 @@ The painting is notable for its realism and attention to detail, with Rembrandt 
       </div>
     </div>
   </footer>
+    
+    <script>
+        function searchPage() {
+            const input = document.querySelector(".search-input").value.toLowerCase();
+            const text = document.body.innerText.toLowerCase();
 
-    <script src="Homepage_script.js"></script>
+        if (!input.trim()) {
+            alert("Please enter a search word.");
+            return;
+        }
+
+        if (text.includes(input)) {
+            alert(`"${input}" found on this page!`);
+        } else {
+            alert(`"${input}" not found on this page.`);
+        }
+}
+</script>
+
+        <script src="Homepage_script.js"></script>
+
 </body>
 </html>
