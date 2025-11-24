@@ -55,6 +55,7 @@ nav {
 .nav-search {
     display: flex;
     align-items: center;
+    margin-left: 2.5rem; 
 }
 
 .search-input {
@@ -64,7 +65,7 @@ nav {
     background-color: #f4f3ef;
     font-family: var(--font-body);
     font-size: 0.95rem;
-    width: 160px;
+    width: 220px;   
     transition: all 0.3s ease;
 }
 
@@ -72,7 +73,7 @@ nav {
     outline: none;
     border-color: #b0a99f;
     background-color: #fff;
-    width: 200px;  /* expands on focus */
+    width: 260px;  
 }
 
 .search-input:hover {
