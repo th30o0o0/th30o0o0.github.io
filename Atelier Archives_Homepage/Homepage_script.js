@@ -10,7 +10,6 @@ function searchPage() {
     }
 }
 
-
 // Featured images redirect
 document.querySelectorAll('.featured .card').forEach(card => {
     card.addEventListener('click', () => {
@@ -30,11 +29,3 @@ document.querySelectorAll('.curator-card').forEach(card => {
 // Scroll functionality for featured and curator sections
 const featuredScroll = document.getElementById('featured-scroll');
 const curatorScroll = document.getElementById('curator-scroll');
-
-// Logo click -> redirect to homepage
-const logo = document.getElementById('logo');
-if (logo) {
-    logo.addEventListener('click', () => {
-        window.location.href = "index.html"; // redirects to homepage
-    });
-}
